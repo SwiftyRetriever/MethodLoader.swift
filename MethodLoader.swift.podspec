@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MethodLoader.swift"
   s.module_name  = "MethodLoader"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Instead of swift initialize function"
 
   s.description  = <<-DESC
