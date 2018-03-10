@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "Logger.swift"
+  s.name         = "MethodLoader.swift"
+  s.module_name  = "MethodLoader"
   s.version      = "0.0.1"
   s.summary      = "Instead of swift initialize function"
 
@@ -23,7 +24,7 @@ Pod::Spec.new do |s|
                   Instead of swift initialize function.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/Logger.swift"
+  s.homepage     = "https://github.com/SwiftyRetriever/MethodLoader.swift"
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
