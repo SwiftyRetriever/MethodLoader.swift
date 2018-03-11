@@ -14,7 +14,7 @@ import Foundation
  该协议会在 self.application(_:didFinishLaunchingWithOptions:) 之前调用
  swift 4.0 initilize 的替代方法
  */
-public protocol MethodLoaderDelegate: class {
+public protocol MethodLoaderDelegate: AnyObject {
     static func awake()
 }
 
